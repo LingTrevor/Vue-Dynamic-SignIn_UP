@@ -39,11 +39,17 @@ form {
   text-align: center;
 
   input {
-    background: #eee;
+    background: $color-primary-bg;
     border: none;
     padding: 10px 15px;
     margin: 10px 0;
     width: 100%;
+    color: $color-primary-dark;
+
+    &:focus {
+      outline: none;
+      border: $primary-border-line;
+    }
   }
 
   .sign-link {
