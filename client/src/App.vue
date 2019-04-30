@@ -1,21 +1,8 @@
 <template>
   <div id="app">
-    <UserForm></UserForm>
+    <router-view />
   </div>
 </template>
-
-<script>
-import UserForm from "@/components/UserForm";
-export default {
-  name: "app",
-  components: {
-    UserForm
-  },
-  data() {
-    return {};
-  }
-};
-</script>
 
 <style lang="scss">
 @import "./scss/_variables.scss";
@@ -25,7 +12,8 @@ export default {
   margin: 0;
 
   #app {
-    font-family: "Avenir", Helvetica, Arial, sans-serif;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+      sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     display: flex;
