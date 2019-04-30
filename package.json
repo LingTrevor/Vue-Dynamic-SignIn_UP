@@ -1,0 +1,22 @@
+{
+  "name": "vue-dynamic-signin_up",
+  "version": "1.0.0",
+  "description": "Switching Sign-in and Sign-up components dynamically with Dyncamic Components",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LingTrevor/Vue-Dynamic-SignIn_UP.git"
+  },
+  "author": "Trevor Ling",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LingTrevor/Vue-Dynamic-SignIn_UP/issues"
+  },
+  "homepage": "https://github.com/LingTrevor/Vue-Dynamic-SignIn_UP#readme",
+  "dependencies": {
+    "express": "^4.16.4"
+  }
+}
